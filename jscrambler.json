@@ -1,0 +1,85 @@
+{
+  "keys": {
+    "accessKey": "5A9460E67570F59D100CE5FB88899667334E48D6",
+    "secretKey": "B59FD04E7A80CCD038F25C84C208FBD2DF5776B9"
+  },
+  "applicationId": "591a253247dc200012bee734",
+  "params": [
+    {
+      "options": {
+        "excludeList": [
+          "foo"
+        ]
+      },
+      "name": "identifiersRenaming"
+    },
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "numberToString"
+    },
+    {
+      "name": "functionOutlining"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "name": "booleanToAnything"
+    },
+    {
+      "name": "propertyKeysReordering"
+    },
+    {
+      "name": "extendPredicates"
+    },
+    {
+      "name": "regexObfuscation"
+    },
+    {
+      "name": "commaOperatorUnfolding"
+    },
+    {
+      "name": "charToTernaryOperator"
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "stringEncoding"
+    },
+    {
+      "name": "stringSplitting"
+    },
+    {
+      "name": "duplicateLiteralsRemoval",
+      "options": {
+        "mode": [
+          "optimization"
+        ]
+      }
+    },
+    {
+      "name": "propertyKeysObfuscation"
+    }
+  ],
+  "filesSrc": [
+    "index.js"
+  ],
+  "filesDest": "dist/",
+  "areSubscribersOrdered": false,
+  "applicationTypes": {
+    "webBrowserApp": false,
+    "desktopApp": false,
+    "serverApp": true,
+    "hybridMobileApp": false,
+    "javascriptNativeApp": false,
+    "html5GameApp": false
+  },
+  "languageSpecifications": {
+    "es5": true,
+    "es6": true,
+    "es7": false
+  }
+}
