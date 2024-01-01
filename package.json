@@ -8,7 +8,7 @@
     "scramble": "rm -fr dist && jscrambler -c jscrambler.json"
   },
   "dependencies": {
-    "jscrambler": "^1.1.7",
+    "jscrambler": "^5.5.21",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
